@@ -1,0 +1,22 @@
+{
+    "sourceFile": "config.h",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1782712582593,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1782717492575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n #ifndef CONFIG_H\r\n #define CONFIG_H\r\n-#define WIFI_SSID      \"Kodnest_Student\"\r\n+#define WIFI_SSID  \"Kodnest_Student\"\r\n #define WIFI_PASSWORD  \"Welcome@1234\"\r\n-#define SERVER_IP      \"10.123.26.123\"\r\n+#define SERVER_IP \"172.20.12.132\"\r\n #define SERVER_PORT    \"3000\"\r\n-#define API_URL        \"http://\" SERVER_IP \":\" SERVER_PORT \"/wifi/rssi\"\r\n #define DEVICE_ID      \"ESP32_01\"\r\n+#define API_URL \"http://172.20.12.132:3000/wifi/rssi\"\r\n #define RSSI_THRESHOLD 5\r\n #define CONFIG_HEARTBEAT_MS 10000\r\n #define CONFIG_SCAN_INTERVAL_MS 100\r\n #endif\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1782712582593,
+            "name": "Commit-0",
+            "content": "#ifndef CONFIG_H\r\n#define CONFIG_H\r\n#define WIFI_SSID      \"Kodnest_Student\"\r\n#define WIFI_PASSWORD  \"Welcome@1234\"\r\n#define SERVER_IP      \"10.123.26.123\"\r\n#define SERVER_PORT    \"3000\"\r\n#define API_URL        \"http://\" SERVER_IP \":\" SERVER_PORT \"/wifi/rssi\"\r\n#define DEVICE_ID      \"ESP32_01\"\r\n#define RSSI_THRESHOLD 5\r\n#define CONFIG_HEARTBEAT_MS 10000\r\n#define CONFIG_SCAN_INTERVAL_MS 100\r\n#endif"
+        }
+    ]
+}
