@@ -125,7 +125,8 @@ python app.py
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| POST | `/motion` | Receive motion event |
+| POST/GET | `/wifi/rssi` | Receive motion event |
+| GET | `/devices` | List the devices |
 | GET | `/status` | Device status |
 | GET | `/stream` | Camera/Stream URL (if enabled) |
 
